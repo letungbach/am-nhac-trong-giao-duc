@@ -1,0 +1,13 @@
+/* Nhãn bằng chứng: hiển thị như huy hiệu nhỏ */
+.ev { display: inline-block; font-size: 0.78em; font-weight: 600; line-height: 1.5; padding: 0 0.5em; border-radius: 0.8em; border: 1px solid; white-space: nowrap; vertical-align: baseline; }
+.ev::before { content: "["; }
+.ev::after { content: "]"; }
+.ev-manh      { color: #14532d; background: #dcfce7; border-color: #86efac; }
+.ev-trungbinh { color: #1e3a8a; background: #dbeafe; border-color: #93c5fd; }
+.ev-sobo      { color: #854d0e; background: #fef9c3; border-color: #fde047; }
+.ev-giathuyet { color: #581c87; background: #f3e8ff; border-color: #d8b4fe; }
+.ev-thuctien  { color: #115e59; background: #ccfbf1; border-color: #5eead4; }
+.ev-neuromyth { color: #7f1d1d; background: #fee2e2; border-color: #fca5a5; }
+/* Thẻ hoạt động */
+.activity-card { border-left-width: 0.4rem; }
+.activity-card .callout-body-container ol { margin-bottom: 0.6rem; }
